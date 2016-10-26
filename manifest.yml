@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: travis.mybluemix.net
+  name: travis2
+  host: travis2
+  disk_quota: 1024M
+  buildpack: php_buildpack
